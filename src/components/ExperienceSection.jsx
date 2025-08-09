@@ -53,39 +53,37 @@ const ExperienceSection = () => {
 
     return (
         <section id="experience" className="experience-section">
-            <div className="container">
-                <h2 className="section-title">Experience</h2>
-                <div className="timeline">
-                    <div className="timeline-line"></div>
-                    {experiences.map((exp, index) => (
-                        <div key={index} className="timeline-item">
-                            <div className="timeline-date">{exp.duration}</div>
-                            <div className="experience-card">
-                                <div className="experience-header">
-                                    <h3 className="experience-title">{exp.title}</h3>
-                                    <p className="experience-company">{exp.company}</p>
-                                </div>
-                                <div className="experience-description">
-                                    <p>{exp.description}</p>
-                                </div>
-                                <div className="experience-technologies">
-                                    {exp.technologies.map((tech, techIndex) => (
-                                        <span key={techIndex} className="tech-tag">{tech}</span>
+            <h2 className="section-title">Experience</h2>
+            <div className="timeline">
+                <div className="timeline-line"></div>
+                {experiences.map((exp, index) => (
+                    <div key={index} className="timeline-item">
+                        <div className="timeline-date">{exp.duration}</div>
+                        <div className="experience-card">
+                            <div className="experience-header">
+                                <h3 className="experience-title">{exp.title}</h3>
+                                <p className="experience-company">{exp.company}</p>
+                            </div>
+                            <div className="experience-description">
+                                <p>{exp.description}</p>
+                            </div>
+                            <div className="experience-technologies">
+                                {exp.technologies.map((tech, techIndex) => (
+                                    <span key={techIndex} className="tech-tag">{tech}</span>
+                                ))}
+                            </div>
+                            {exp.links.length > 0 && (
+                                <div className="experience-links">
+                                    {exp.links.map((link, linkIndex) => (
+                                        <a key={linkIndex} href={link.url} className="experience-link" target="_blank" rel="noopener noreferrer">
+                                            {link.text}
+                                        </a>
                                     ))}
                                 </div>
-                                {exp.links.length > 0 && (
-                                    <div className="experience-links">
-                                        {exp.links.map((link, linkIndex) => (
-                                            <a key={linkIndex} href={link.url} className="experience-link" target="_blank" rel="noopener noreferrer">
-                                                {link.text}
-                                            </a>
-                                        ))}
-                                    </div>
-                                )}
-                            </div>
+                            )}
                         </div>
-                    ))}
-                </div>
+                    </div>
+                ))}
             </div>
         </section>
     );

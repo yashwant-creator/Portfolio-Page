@@ -20,7 +20,7 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-            <ScrollArrow targetId="about" />
+            <ScrollArrow targetId="skills" />
         </section>
     );
 };
