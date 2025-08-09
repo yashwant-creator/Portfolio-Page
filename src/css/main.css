@@ -1,0 +1,21 @@
+/* Main CSS file - imports all modular CSS files */
+
+/* Base styles and reset */
+@import './base.css';
+
+/* Interactive effects */
+@import './cursor.css';
+@import './background.css';
+@import './scroll-arrow.css';
+
+/* Layout components */
+@import './navigation.css';
+@import './hero.css';
+@import './about.css';
+@import './skills.css';
+@import './experience.css';
+@import './contact.css';
+@import './footer.css';
+
+/* Responsive design */
+@import './responsive.css';
