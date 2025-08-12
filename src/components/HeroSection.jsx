@@ -1,13 +1,21 @@
 import React from 'react';
-import ScrollArrow from './ScrollArrow';
+import DoubleScrollArrows from './DoubleScrollArrows';
+import profilePicture from '../assets/profilePicture.jpeg';
 
 const HeroSection = () => {
     return (
         <section id="home" className="hero">
             <div className="hero-content">
                 <div className="hero-text">
-                    <h1 className="hero-title">
-                        Hi, I'm <span className="highlight">Yashwant Ponnaganti</span>
+                    <h1 className="hero-title" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem' }}>
+                        <img
+                            src={profilePicture}
+                            alt="Profile"
+                            className="hero-profile-pic styled-profile-pic"
+                        />
+                        <span>
+                            Hi, I'm <span className="highlight">Yashwant Ponnaganti</span>
+                        </span>
                     </h1>
                     <h2 className="hero-subtitle">A full-time undergraduate student seeking internship opportunities</h2>
                     <p className="hero-description">
@@ -20,9 +28,11 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-            <ScrollArrow targetId="skills" />
+            {/* Remove old ScrollArrow, add DoubleScrollArrows for up/down navigation */}
+            <DoubleScrollArrows upTargetId="about" downTargetId="skills" />
         </section>
     );
+import DoubleScrollArrows from './DoubleScrollArrows';
 };
 
 export default HeroSection;
