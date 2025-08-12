@@ -1,5 +1,5 @@
 import React from 'react';
-import DoubleScrollArrows from './DoubleScrollArrows';
+import ScrollArrow from './ScrollArrow';
 import profilePicture from '../assets/profilePicture.jpeg';
 
 const HeroSection = () => {
@@ -28,11 +28,9 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-            {/* Remove old ScrollArrow, add DoubleScrollArrows for up/down navigation */}
-            <DoubleScrollArrows upTargetId="about" downTargetId="skills" />
+            <ScrollArrow targetId="skills" />
         </section>
     );
-import DoubleScrollArrows from './DoubleScrollArrows';
 };
 
 export default HeroSection;
