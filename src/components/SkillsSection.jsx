@@ -4,7 +4,7 @@ const SkillsSection = () => {
     const getSkillIcon = (skillName) => {
         const icons = {
             'HTML': (
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="#E34F26">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="#E34F26" title={skillName}>
                     <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/>
                 </svg>
             ),
@@ -79,7 +79,7 @@ const SkillsSection = () => {
     };
 
     const SkillItem = ({ children }) => (
-        <div className="skill-item" title={children}>
+        <div className="skill-item" >
             <div className="skill-icon">
                 {getSkillIcon(children)}
             </div>
@@ -87,38 +87,26 @@ const SkillsSection = () => {
     );
 
     return (
-        <section id="skills" className="skills">
-            <h2 className="section-title">Skills & Technologies</h2>
-            <div className="skills-sections">
-                <div className="skill-category">
-                    <h3>Frontend</h3>
-                    <div className="skill-items">
-                        <SkillItem>HTML</SkillItem>
-                        <SkillItem>CSS</SkillItem>
-                        <SkillItem>REACT</SkillItem>
-                        <SkillItem>FLUTTER</SkillItem>
-                        <SkillItem>JAVASCRIPT</SkillItem>
-                    </div>
-                </div>
-                <div className="skill-category">
-                    <h3>Backend</h3>
-                    <div className="skill-items">
-                        <SkillItem>Python</SkillItem>
-                        <SkillItem>REST APIs</SkillItem>
-                        <SkillItem>MongoDB</SkillItem>
-                    </div>
-                </div>
-                <div className="skill-category">
-                    <h3>Other Tools</h3>
-                    <div className="skill-items">
-                        <SkillItem>GitHub</SkillItem>
-                        <SkillItem>Figma</SkillItem>
-                        <SkillItem>VSCode</SkillItem>
-                        <SkillItem>Postman</SkillItem>
-                    </div>
-                </div>
+        <div id="skills" style={{ scrollMarginTop: '80px' }}>
+            <h2 className='section-title'>Technologies</h2>
+        <section className="skills sleek-skills">
+            
+            <div className="skill-items sleek-skill-items">
+                <SkillItem>HTML</SkillItem>
+                <SkillItem>CSS</SkillItem>
+                <SkillItem>REACT</SkillItem>
+                <SkillItem>FLUTTER</SkillItem>
+                <SkillItem>JAVASCRIPT</SkillItem>
+                <SkillItem>Python</SkillItem>
+                <SkillItem>REST APIs</SkillItem>
+                <SkillItem>MongoDB</SkillItem>
+                <SkillItem>GitHub</SkillItem>
+                <SkillItem>Figma</SkillItem>
+                <SkillItem>VSCode</SkillItem>
+                <SkillItem>Postman</SkillItem>
             </div>
         </section>
+        </div>
     );
 };
 

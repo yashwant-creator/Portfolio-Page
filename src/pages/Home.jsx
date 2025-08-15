@@ -10,6 +10,7 @@ import HeroSection from '../components/HeroSection';
 import SkillsSection from '../components/SkillsSection';
 import ExperienceSection from '../components/ExperienceSection';
 import ContactSection from '../components/ContactSection';
+import ProjectsSection from '../components/ProjectsSection';
 import Footer from '../components/Footer';
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
             <HeroSection />
             <SkillsSection />
             <ExperienceSection />
+            <ProjectsSection />
             <ContactSection />
             <Footer />
         </div>

@@ -1,0 +1,144 @@
+.project-technologies {
+  margin: 1rem 0 0.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-button {
+  background: #0077ff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: default;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  transition: background 0.2s;
+}
+
+.tech-button:hover {
+  background: #005bb5;
+}
+.projects-section {
+  padding: 3rem 1rem;
+  background: #fff;
+}
+
+.projects-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 2rem;
+  width: 300px;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-8px) scale(1.03);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #0077ff;
+}
+
+.project-card p {
+  color: #555;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #0077ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+.project-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  padding: 2.2rem 1.5rem 1.5rem 1.5rem;
+  width: 100%;
+  max-width: 370px;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+}
+.project-card:hover {
+  transform: translateY(-10px) scale(1.04);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+}
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  color: #0077ff;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+.project-card p {
+  color: #444;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+.project-technologies {
+  margin: 0.5rem 0 1.2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.tech-button {
+  background: #0077ff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: default;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  transition: background 0.2s;
+}
+.tech-button:hover {
+  background: #005bb5;
+}
+.project-card a {
+  display: inline-block;
+  margin-top: auto;
+  color: #0077ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  background: rgba(0,119,255,0.08);
+  transition: background 0.2s;
+}
+.project-card a:hover {
+  background: rgba(0,119,255,0.18);
+  text-decoration: underline;
+}
