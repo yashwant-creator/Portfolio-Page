@@ -3,42 +3,44 @@ import React from 'react';
 const ExperienceSection = () => {
     const experiences = [
         {
-            title: "Research Internship: NEERU Smart Water bottle",
+            title: "Computer Hardware Engineering Intern",
             company: "University of Rhode Island, Dept. of Biotechnology",
             duration: "July 2024 - Aug 2024",
             description: "Conducted research, designed & built \"Neeru\", a smart water bottle accessory to combat dehydration. Presented research poster at MIT Conference (IEEE MIT URTC 2024).",
-            technologies: ["Research", "Hardware Design", "IEEE"],
-            links: []
+            technologies: ["Research", "Hardware Design", "IEEE", "3D Printing", "Circuit Design", "Computer Engineering"],
+            links: [{text: "MIT URTC Certificate TBD", url: ""},
+                 {text: "Internship Certificate", url: "https://drive.google.com/file/d/1T8w_yqsrmewrZ7hrsyDhMF3Wa412WJOp/view?usp=sharing"}
+                ]
         },
         {
             title: "Summer program: Application of AI in Finance Industry",
             company: "University of California San Diego",
             duration: "July 2024 - Aug 2024",
             description: "Learnt & built applications for predictive modeling in finance, banking, wealth, asset mgmt., & fraud detection using AI Technology. Received 2.5 credits from University of California San Diego.",
-            technologies: ["AI", "Finance", "Predictive Modeling", "Python"],
+            technologies: ["AI", "Finance", "Predictive Modeling", "Python", "Fintech"],
             links: [
-                { text: "AI + Finance Certificate", url: "#" }
+                { text: "AI + Finance Certificate", url: "https://drive.google.com/file/d/1MCfo0x6IFty9Tu9joIqztdy9O2jQhwhj/view?usp=sharing" }
             ]
         },
         {
-            title: "AI/ML Internship",
+            title: "Machine Learning Engineering Internship",
             company: "University of Rhode Island, Dept. of Biotechnology",
             duration: "July 2023 - Aug 2023",
             description: "Built an AI model (under guidance of a URI mentor) to detect activity types on a smartwatch, used in an ADHD study to track and predict the onset of ADHD in children aged 7-11.",
-            technologies: ["Python", "Machine Learning", "AI", "Data Analysis"],
+            technologies: ["Python", "Machine Learning", "AI", "Data Analysis", "K-Means clustering algorithm"],
             links: [
-                { text: "Research Poster: HAR _ URI 2023", url: "#" }
+                { text: "Research Poster: Human Activity Recongnition 2023", url: "https://docs.google.com/presentation/d/1TiVOjGnX01dvvkBp6vhvQEVISsh5gKl-wf3O2QzNNOE/edit?usp=sharing" }
             ]
         },
         {
-            title: "App Development Internship",
+            title: "Software Engineering Internship",
             company: "University of Rhode Island, Dept. of Biotechnology",
             duration: "July 2022 - Aug 2022",
             description: "Developed a CareWell App module, a clinical dashboard for a digital health platform for caregivers of dementia. Built Analytics Dashboard, analyzed requirements & design doc. Presented app demo to post-grad and hospital reps who were interested in the product.",
             technologies: ["App Development", "Dashboard Design", "Healthcare Tech", "Analytics"],
             links: [
-                { text: "Carewell Clinical Dashboard- Demo Slides", url: "#" },
-                { text: "Demo Video", url: "#" }
+                { text: "Carewell Clinical Dashboard- Demo Slides", url: "https://docs.google.com/presentation/d/1m3HWPYzw26zsX33V6mhjOto0HqQ3V6mgURk3KuZ2QvA/edit?usp=sharing" },
+                { text: "Demo Video", url: "https://drive.google.com/file/d/1hceekMAfpG0NEkgR2XVunOQBtkqomm5r/view?usp=sharing" }
             ]
         },
         {
