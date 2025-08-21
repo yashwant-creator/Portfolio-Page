@@ -15,10 +15,10 @@ const projects = [
     technologies: ["React-Native", "Nasa API", "CSS", "HTML","JavaScript"]
   },
     {
-    title: "Student Attendance App",
-    description: "An app that tracks attendance of students",
+    title: "Portfolio Page",
+    description: "A website that tracks my experience, projects, and skills.",
     link: "https://github.com/yashwant-creator/WeatherApp",
-    technologies: ["React-Native", "Firebase", "Database"]
+    technologies: ["React", "HTML","CSS","Github"]
   },
   // Add more projects as needed
 ];
