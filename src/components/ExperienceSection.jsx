@@ -5,7 +5,7 @@ const ExperienceSection = () => {
                 {
             title: "Machine Learning Engineering Intern - Retrieval-Augmented Generation Chatbot for Polycystic Kidney Disease(PKD)",
             company: "University of Rhode Island, Dept. of Biotechnology",
-            duration: "July 2025 - Aug 2025",
+            duration: "July 2025 - Present",
             description: `Built a retrieval-augmented generation (RAG) chatbot for Polycystic Kidney Disease patients using Python, Flutter, and OpenAI’s GPT-4o-mini
 \nProcessed 50+ medical research papers into embeddings, stored in a vector database, and integrated FAISS similarity search for accurate retrieval
 \nImplemented an async, multi-threaded backend to deliver responsive, medically grounded, and empathetic chatbot interactions

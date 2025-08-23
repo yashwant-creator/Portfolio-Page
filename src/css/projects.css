@@ -6,31 +6,38 @@
 }
 
 .tech-button {
-  background: #0077ff;
+  background: linear-gradient(45deg, #00a8e8, #007ea7);
   color: #fff;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 0.3rem 0.9rem;
   font-size: 0.85rem;
   font-weight: 500;
   cursor: default;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
-  transition: background 0.2s;
+  box-shadow: 0 2px 10px rgba(0, 168, 232, 0.13);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
 }
 
 .tech-button:hover {
-  background: #005bb5;
+  background: linear-gradient(45deg, #007ea7, #00a8e8);
+  box-shadow: 0 6px 18px rgba(0, 168, 232, 0.18);
+  transform: translateY(-2px) scale(1.04);
 }
 .projects-section {
-  padding: 3rem 1rem;
-  background: #fff;
+  padding: 6rem 0;
+  background: transparent;
 }
 
 .projects-section h2 {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2.5rem;
-  color: #333;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  background: linear-gradient(45deg, #00a8e8, #007ea7, #003459);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .projects-list {
@@ -57,28 +64,22 @@
 
 .project-card h3 {
   margin-top: 0;
-  color: #0077ff;
+  margin-bottom: 0.7rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, #00a8e8, #007ea7, #003459);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.project-card p {
-  color: #555;
-}
-
-.project-card a {
-  display: inline-block;
-  margin-top: 1rem;
-  color: #0077ff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.project-card a:hover {
-  text-decoration: underline;
-}
+/* Fixed project-card block */
 .project-card {
-  background: #fff;
-  border-radius: 18px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(0, 23, 31, 0.08);
+  border-radius: 22px;
+  box-shadow: 0 8px 32px rgba(0, 23, 31, 0.13), 0 2px 12px rgba(0,0,0,0.08);
   padding: 2.2rem 1.5rem 1.5rem 1.5rem;
   width: 100%;
   max-width: 370px;
@@ -89,35 +90,32 @@
   transition: transform 0.2s, box-shadow 0.2s;
   position: relative;
 }
-.project-card:hover {
-  transform: translateY(-10px) scale(1.04);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.13);
-}
-.project-card h3 {
+
+.project-card a:hover {
   margin-top: 0;
   margin-bottom: 0.7rem;
-  color: #0077ff;
-  font-size: 1.35rem;
-  font-weight: 700;
-}
-.project-card p {
-  color: #444;
-  font-size: 1rem;
-  margin-bottom: 0.8rem;
-}
-.project-technologies {
-  margin: 0.5rem 0 1.2rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-.tech-button {
-  background: #0077ff;
-  color: #fff;
-  border: none;
-  border-radius: 20px;
-  padding: 0.3rem 0.9rem;
-  font-size: 0.85rem;
+  /* Remove orphaned/duplicated blocks and fix .project-technologies/.tech-button */
+  .project-technologies {
+    margin: 0.5rem 0 1.2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .tech-button {
+    background: linear-gradient(45deg, #00a8e8, #007ea7);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.3rem 0.9rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: default;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    transition: background 0.2s;
+  }
+  .tech-button:hover {
+    background: linear-gradient(45deg, #007ea7, #00a8e8);
+  }
   font-weight: 500;
   cursor: default;
   box-shadow: 0 1px 4px rgba(0,0,0,0.07);
@@ -129,16 +127,19 @@
 .project-card a {
   display: inline-block;
   margin-top: auto;
-  color: #0077ff;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
-  border-radius: 8px;
+  border-radius: 30px;
   padding: 0.5rem 1.2rem;
-  background: rgba(0,119,255,0.08);
-  transition: background 0.2s;
+  background: linear-gradient(45deg, #00a8e8, #007ea7);
+  box-shadow: 0 2px 10px rgba(0, 168, 232, 0.13);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
 }
 .project-card a:hover {
-  background: rgba(0,119,255,0.18);
+  background: linear-gradient(45deg, #007ea7, #00a8e8);
   text-decoration: underline;
+  box-shadow: 0 6px 18px rgba(0, 168, 232, 0.18);
+  transform: translateY(-2px) scale(1.04);
 }
