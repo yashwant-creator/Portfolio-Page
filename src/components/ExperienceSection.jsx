@@ -11,7 +11,10 @@ const ExperienceSection = () => {
 \nImplemented an async, multi-threaded backend to deliver responsive, medically grounded, and empathetic chatbot interactions
 `,
             technologies: ["RAGbot", "Vector Database", "Embeddings", "Python", "Computer Engineering", "Research"],
-            links: [{text: "URI Photos", url: "https://drive.google.com/drive/folders/1NGNTpIiX0lbcpVOQkdB44hoIJaOi4wUz?usp=sharing"},
+            links: [{text: "View Team Pic", url: "https://drive.google.com/file/d/12YYPotxw6keX5WZ_UiXeQJXoCtjJKa7A/view?usp=sharing"},
+                {text: "View Architechture Slides", url: "https://docs.google.com/presentation/d/1htXXNUh-LC4aqZ4VRapKp-wmgP0AdSKHrW9jEtecFaQ/edit?usp=sharing"},
+                {text: "View Website", url: "https://polycystickidney.streamlit.app/"},
+                {text: "View Demo", url: "https://drive.google.com/file/d/1VBj4l25Kb0ZMVLsEGoC3mwSRuz583jer/view?usp=sharing"},
                 ]
         },
 
@@ -22,7 +25,8 @@ const ExperienceSection = () => {
             description: "Conducted research, designed & built \"Neeru\", a smart water bottle accessory to combat dehydration. Presented research poster at MIT Conference (IEEE MIT URTC 2024).",
             technologies: ["Research", "Hardware Design", "IEEE", "3D Printing", "Circuit Design", "Computer Engineering"],
             links: [{text: "MIT URTC Certificate TBD", url: ""},
-                 {text: "Internship Certificate", url: "https://drive.google.com/file/d/1T8w_yqsrmewrZ7hrsyDhMF3Wa412WJOp/view?usp=sharing"}
+                 {text: "View Internship Certificate", url: "https://drive.google.com/file/d/1T8w_yqsrmewrZ7hrsyDhMF3Wa412WJOp/view?usp=sharing"},
+                 {text: "View Project Slides", url: "https://docs.google.com/presentation/d/1d4w7iVDirMmx7pPqHRNf-CikE3qAvhLT_fWHHr1Umi4/edit?usp=sharing"}
                 ]
         },
         {
@@ -32,7 +36,7 @@ const ExperienceSection = () => {
             description: "Learnt & built applications for predictive modeling in finance, banking, wealth, asset mgmt., & fraud detection using AI Technology. Received 2.5 credits from University of California San Diego.",
             technologies: ["AI", "Finance", "Predictive Modeling", "Python", "Fintech"],
             links: [
-                { text: "AI + Finance Certificate", url: "https://drive.google.com/file/d/1MCfo0x6IFty9Tu9joIqztdy9O2jQhwhj/view?usp=sharing" }
+                { text: "View AI + Finance Certificate", url: "https://drive.google.com/file/d/1MCfo0x6IFty9Tu9joIqztdy9O2jQhwhj/view?usp=sharing" }
             ]
         },
         {
@@ -42,7 +46,7 @@ const ExperienceSection = () => {
             description: "Built an AI model (under guidance of a URI mentor) to detect activity types on a smartwatch, used in an ADHD study to track and predict the onset of ADHD in children aged 7-11.",
             technologies: ["Python", "Machine Learning", "AI", "Data Analysis", "K-Means clustering algorithm"],
             links: [
-                { text: "Research Poster: Human Activity Recongnition 2023", url: "https://docs.google.com/presentation/d/1TiVOjGnX01dvvkBp6vhvQEVISsh5gKl-wf3O2QzNNOE/edit?usp=sharing" }
+                { text: "View Research Poster: Human Activity Recongnition 2023", url: "https://docs.google.com/presentation/d/1TiVOjGnX01dvvkBp6vhvQEVISsh5gKl-wf3O2QzNNOE/edit?usp=sharing" }
             ]
         },
         {
@@ -52,8 +56,8 @@ const ExperienceSection = () => {
             description: "Developed a CareWell App module, a clinical dashboard for a digital health platform for caregivers of dementia. Built Analytics Dashboard, analyzed requirements & design doc. Presented app demo to post-grad and hospital reps who were interested in the product.",
             technologies: ["App Development", "Dashboard Design", "Healthcare Tech", "Analytics"],
             links: [
-                { text: "Carewell Clinical Dashboard- Demo Slides", url: "https://docs.google.com/presentation/d/1m3HWPYzw26zsX33V6mhjOto0HqQ3V6mgURk3KuZ2QvA/edit?usp=sharing" },
-                { text: "Demo Video", url: "https://drive.google.com/file/d/1hceekMAfpG0NEkgR2XVunOQBtkqomm5r/view?usp=sharing" }
+                { text: "View Carewell Clinical Dashboard Slides", url: "https://docs.google.com/presentation/d/1m3HWPYzw26zsX33V6mhjOto0HqQ3V6mgURk3KuZ2QvA/edit?usp=sharing" },
+                { text: "View Demo Video", url: "https://drive.google.com/file/d/1hceekMAfpG0NEkgR2XVunOQBtkqomm5r/view?usp=sharing" }
             ]
         },
         {

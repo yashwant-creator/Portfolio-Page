@@ -17,7 +17,7 @@ const projects = [
     {
     title: "Portfolio Page",
     description: "A website that tracks my experience, projects, and skills.",
-    link: "https://github.com/yashwant-creator/Portfolio-Page",
+    link: "https://yashwantponnaganti.netlify.app/",
     technologies: ["React", "HTML","CSS","Github"]
   },
   // Add more projects as needed
