@@ -21,7 +21,7 @@ const Navigation = () => {
                         <a href="#contact" className="nav-link">Contact</a>
                     </li>
                     <li className="nav-item">
-                        <a href="https://docs.google.com/document/d/1uAb45Q4v1hD_Yu3Pkz-_xB4MyHYyAFAvT9QCmT26d88/edit?tab=t.0" target = "_blank" className="nav-link">Resume</a>
+                        <a href="https://docs.google.com/document/d/1an3YKIkXW3Zxj6JQJyCINcNAgKr3JvLk/edit?usp=sharing&ouid=111697376633579726869&rtpof=true&sd=true" target = "_blank" className="nav-link">Resume</a>
                     </li>
                 </ul>
             </div>
