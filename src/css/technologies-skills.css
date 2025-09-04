@@ -48,30 +48,33 @@
     margin-bottom: 1rem;
     position: relative;
     padding-left: 1rem;
-    color: #a8e0f7; /* Lighter shade based on theme */
+    color: #000000; /* Changed to black */
     font-size: 1rem;
     transition: color 0.3s ease;
     text-align: left;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2); /* Subtle text shadow for better readability */
 }
 
 .skills-text-content p:hover {
-    color: #00a8e8;
+    color: #333333; /* Darker gray on hover */
 }
 
 .skills-text-content p::before {
-    content: "→";
+    content: "•"; /* Bold dot bullet point */
     position: absolute;
-    left: -0.5rem;
-    color: #00a8e8;
+    left: 0;
+    color: #000000; /* Changed to black */
     text-align: left;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .skills-text-content p:first-child {
     font-size: 1.15rem;
     font-weight: 600;
     margin-bottom: 1.2rem;
-    color: #00a8e8;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #000000; /* Changed to black */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* Changed to black with opacity */
     padding-bottom: 0.7rem;
     padding-left: 0;
     text-align: left;
@@ -81,25 +84,13 @@
     content: "";
 }
 
-/* Gradient color scheme for paragraphs */
-.skills-text-content p:nth-child(2) {
-    color: #00a8e8; /* Light blue */
-}
-
-.skills-text-content p:nth-child(3) {
-    color: #0098d4; /* Slightly darker blue */
-}
-
-.skills-text-content p:nth-child(4) {
-    color: #008bc0; /* Medium blue */
-}
-
-.skills-text-content p:nth-child(5) {
-    color: #007ea7; /* Medium-dark blue */
-}
-
+/* All paragraphs are now black */
+.skills-text-content p:nth-child(2),
+.skills-text-content p:nth-child(3),
+.skills-text-content p:nth-child(4),
+.skills-text-content p:nth-child(5),
 .skills-text-content p:nth-child(6) {
-    color: #00719a; /* Darker blue */
+    color: #000000; /* Black color for all paragraphs */
 }
 
 /* Right side - Technology section */
