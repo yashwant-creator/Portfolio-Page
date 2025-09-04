@@ -7,7 +7,7 @@ import CursorSpotlight from '../components/CursorSpotlight';
 import BackgroundBlobs from '../components/BackgroundBlobs';
 import Navigation from '../components/Navigation';
 import HeroSection from '../components/HeroSection';
-import SkillsSection from '../components/SkillsSection';
+import TechnologiesAndSkillsSection from '../components/TechnologiesAndSkillsSection';
 import ExperienceSection from '../components/ExperienceSection';
 import ContactSection from '../components/ContactSection';
 import ProjectsSection from '../components/ProjectsSection';
@@ -20,7 +20,7 @@ function Home() {
             <BackgroundBlobs />
             <Navigation />
             <HeroSection />
-            <SkillsSection />
+            <TechnologiesAndSkillsSection />
             <ExperienceSection />
             <ProjectsSection />
             <ContactSection />
