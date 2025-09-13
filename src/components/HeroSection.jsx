@@ -19,7 +19,7 @@ const HeroSection = () => {
                     </h1>
                     <h2 className="hero-subtitle">A full-time undergraduate Computer Science student seeking internship opportunities</h2>
                     <p className="hero-description">
-                        UMD '29 | Computer Science: Machine Learning Specialization |
+                        UMD | Computer Science: Machine Learning Specialization |
                          Interested in AI, Data Science, and Tech for Good.
                     </p>
                     <div className="hero-buttons">

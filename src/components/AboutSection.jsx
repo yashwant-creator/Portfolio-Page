@@ -8,7 +8,7 @@ const AboutSection = () => {
                 <div className="about-content">
                     <div className="about-text">
                         <p>
-                            UMD '29 |
+                            UMD |
                             Computer Science: Machine Learning Specialization | 
                             Interested in AI, Data Science, and Tech for Good.
                         </p>

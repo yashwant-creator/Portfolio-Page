@@ -5,19 +5,14 @@ const projects = [
   {
     title: "College Tracker App",
     description: "Full-Stack A web app where a student can:add colleges, see important deadlines in a visual timeline, get basic info about each college (fees, cost of attendance, facts, prompts)",
-    link: "https://github.com/yashwant-creator/PortfolioPage",
+    link: "https://github.com/yashwant-creator/CollegeTracker",
     technologies: ["React", "Vite", "CSS","SupaBase"]
   },
-  {
-    title: "International Space Station App",
-    description: "An app that tracks the location of ISS (International Space Station)",
-    link: "https://github.com/yashwant-creator/WeatherApp",
-    technologies: ["React-Native", "Nasa API", "CSS", "HTML","JavaScript"]
-  },
+  
     {
     title: "Portfolio Page",
     description: "A website that tracks my experience, projects, and skills.",
-    link: "https://yashwantponnaganti.netlify.app/",
+    link: "https://github.com/yashwant-creator/PortfolioPage",
     technologies: ["React", "HTML","CSS","Github"]
   },
   // Add more projects as needed
