@@ -109,7 +109,7 @@ const SkillsSection = () => {
                 <SkillItem>GitHub</SkillItem>
                 <SkillItem>Figma</SkillItem>
                 <SkillItem>VSCode</SkillItem>
-                <SkillItem>Postman</SkillItem>
+                
             </div>
         </section>
         </div>
