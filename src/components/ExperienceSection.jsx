@@ -3,8 +3,8 @@ import React from 'react';
 const ExperienceSection = () => {
     const experiences = [
                 {
-            title: "Paid Machine Learning Engineering Intern - Retrieval-Augmented Generation Chatbot for Polycystic Kidney Disease(PKD)",
-            company: "University of Rhode Island, Dept. of Biotechnology & Brown University",
+            title: "Paid Machine Learning Engineering Research Assistant - Retrieval-Augmented Generation Chatbot for Polycystic Kidney Disease(PKD)",
+            company: " Brown University & University of Rhode Island, Dept. of Biotechnology",
             duration: "July 2025 - Present",
             description: `Built a retrieval-augmented generation (RAG) chatbot for Polycystic Kidney Disease patients using Python, Flutter, and OpenAI’s GPT-4o-mini
 \nProcessed 50+ medical research papers into embeddings, stored in a vector database, and integrated FAISS similarity search for accurate retrieval
