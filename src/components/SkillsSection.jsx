@@ -106,7 +106,6 @@ const SkillsSection = () => {
                 <SkillItem>Javascript</SkillItem>
                 <SkillItem>Java</SkillItem>
                 <SkillItem>Python</SkillItem>
-                <SkillItem>REST APIs</SkillItem>
                 <SkillItem>GitHub</SkillItem>
                 <SkillItem>Figma</SkillItem>
                 <SkillItem>VSCode</SkillItem>
